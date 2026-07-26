@@ -1,4 +1,5 @@
 import UserCard from "./UserCard";
+import UseState from "./UseState";
 function App() {
   return (
     <>
@@ -7,6 +8,7 @@ function App() {
         description="Welcome to these new T-shirts. We have different brands like Nike, Adidas, and Puma."
         price={20}
       />
+      <UseState />
     </>
   );
 }

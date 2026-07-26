@@ -1,3 +1,5 @@
+//today i learned how to use props in typescript
+
 interface UserCardProps {
     name: string;
     description: string;
