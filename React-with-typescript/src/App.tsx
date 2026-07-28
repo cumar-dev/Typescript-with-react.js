@@ -3,6 +3,7 @@ import Form from "./Form";
 import TodoApp from "./TodoApp";
 import UserCard from "./UserCard";
 import UseState from "./UseState";
+import UseEffect from "./UseEffect";
 function App() {
   const [todos, setTodos] = useState<string []>([]);
   const handleSubmit = (data: string)=> {
@@ -26,6 +27,7 @@ function App() {
           <li style={{textDecoration: "none"}} key={index}>{todo}</li>
         ))}
       </ul>
+      <UseEffect />
     </div>
   );
 }
