@@ -4,7 +4,7 @@ import TodoApp from "./TodoApp";
 import UserCard from "./UserCard";
 import UseState from "./UseState";
 import UseEffect from "./UseEffect";
-import useLocalStoarge from "./Hooks/UseLocalStorage";
+import useLocalStoarge from "./Hooks/UseStringLocalStorage";
 import useNumberLocalStorage from "./Hooks/UseNumberLocalStorage";
 import useUserObjects from "./Hooks/UseUserObjectsStorage";
 
